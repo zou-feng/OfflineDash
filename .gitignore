@@ -1,0 +1,41 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+local.properties
+captures/
+
+# 构建产物
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+
+# 签名文件
+*.jks
+*.keystore
+keystore.properties
+
+# Kotlin
+.kotlin/
+
+# 日志与临时文件
+*.log
+*.tmp
+*.swp
+
+# 操作系统
+.DS_Store
+Thumbs.db
+desktop.ini
