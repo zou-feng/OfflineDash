@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OfflineDash</string>
+
+    <string name="unit_kmh">km/h</string>
+    <string name="g_total">G-force  %1$s G</string>
+
+    <string name="source_gps">Speed source: GPS</string>
+    <string name="source_estimated">Speed source: Estimated</string>
+    <string name="source_none">Speed source: No data</string>
+
+    <string name="source_short_gps">GPS</string>
+    <string name="source_short_estimated">EST</string>
+    <string name="source_short_none">NO DATA</string>
+
+    <string name="gnss_sats">Sats: %1$d</string>
+    <string name="gnss_beidou">BDS: %1$d</string>
+    <string name="gnss_signal">Signal: %1$s</string>
+    <string name="gnss_off">GPS OFF</string>
+    <string name="gnss_no_permission">No permission</string>
+    <string name="gnss_unsupported">No GPS hardware</string>
+
+    <string name="perm_location_denied">Location: no permission</string>
+    <string name="perm_notification_denied">Notifications: denied</string>
+    <string name="orientation_toggle">Toggle orientation</string>
+
+    <string name="signal_strong">Strong</string>
+    <string name="signal_medium">Medium</string>
+    <string name="signal_weak">Weak</string>
+    <string name="signal_none">--</string>
+
+    <string name="label_front">FRONT</string>
+    <string name="label_back">BACK</string>
+    <string name="label_left">LEFT</string>
+    <string name="label_right">RIGHT</string>
+
+    <string name="notif_channel">Dashboard location service</string>
+    <string name="notif_title">OfflineDash is running</string>
+    <string name="notif_text">Collecting GPS and accelerometer data</string>
+
+    <string name="toast_no_location">Location permission denied: GPS speed and satellites unavailable, using accelerometer estimation</string>
+</resources>

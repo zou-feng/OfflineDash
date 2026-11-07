@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OfflineDash</string>
+
+    <string name="unit_kmh">km/h</string>
+    <string name="g_total">G力总值  %1$s G</string>
+
+    <string name="source_gps">速度来源: GPS</string>
+    <string name="source_estimated">速度来源: 估算</string>
+    <string name="source_none">速度来源: 无数据</string>
+
+    <string name="source_short_gps">GPS</string>
+    <string name="source_short_estimated">估算</string>
+    <string name="source_short_none">无数据</string>
+
+    <string name="gnss_sats">卫星: %1$d</string>
+    <string name="gnss_beidou">北斗: %1$d</string>
+    <string name="gnss_signal">信号: %1$s</string>
+    <string name="gnss_off">GPS 关闭</string>
+    <string name="gnss_no_permission">无权限</string>
+    <string name="gnss_unsupported">无 GPS 硬件</string>
+
+    <string name="perm_location_denied">定位: 无权限</string>
+    <string name="perm_notification_denied">通知: 未授权</string>
+    <string name="orientation_toggle">切换横竖屏</string>
+
+    <string name="signal_strong">强</string>
+    <string name="signal_medium">中</string>
+    <string name="signal_weak">弱</string>
+    <string name="signal_none">--</string>
+
+    <string name="label_front">前</string>
+    <string name="label_back">后</string>
+    <string name="label_left">左</string>
+    <string name="label_right">右</string>
+
+    <string name="notif_channel">仪表盘定位服务</string>
+    <string name="notif_title">OfflineDash 运行中</string>
+    <string name="notif_text">正在采集 GPS 与加速度数据</string>
+
+    <string name="toast_no_location">未授予定位权限：GPS 速度与卫星状态不可用，将使用加速度估算</string>
+</resources>
